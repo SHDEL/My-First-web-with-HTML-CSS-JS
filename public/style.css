@@ -1,0 +1,482 @@
+/* file css รวมทุกเว็บครับ ดูยากหน่อย */
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&family=IBM+Plex+Sans+Thai:wght@500&display=swap');
+body {
+    background-color: #ff753e;
+    color: white;
+    font-family: 'Concert One', cursive;
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8kzLj7RfLJazc6dtokRUO6HF6fJzfLnGWHw&usqp=CAU);
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* menutab */
+.navbar {
+    background-color: white;
+    color: tomato;
+    font-size: 25px;
+    padding: 20px 20px;
+}
+/* li in menutab */
+.navbar li {
+    display: inline;
+}
+/* tag a in menutab */
+.navbar a {
+    text-decoration: none;
+    color: tomato;
+    margin-left: 15px;
+    transition-duration: 0.5s;
+}
+.navbar a:hover {
+    background-color: tomato;
+    color: white;
+}
+/* icononhomepage */
+.iconol img {
+    width: 20px;
+    height: 25px;
+}
+/* h1 */
+h1 {
+    word-spacing: 0px;
+    margin-top: 20px;
+}
+/* submenu game */
+.dropbnt {
+    background-color: white;
+    color: tomato;
+    border: none;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropcontent {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 200px;
+}
+.dropcontent a {
+    color: tomato;
+    text-decoration: none;
+    display: block;
+}
+.dropdown:hover .dropcontent {
+    display: block;
+}
+
+/* paraorangeland */
+.p_orangeland {
+    color: white;
+    font-size: 50px;
+    font-weight: 500;
+    text-align: center;
+    border: solid;
+    border-color: white;
+    border-radius: 100px;
+    letter-spacing: 0px;
+    line-height: 100px;
+    text-indent: 0px;
+    margin-top: 20px;
+    width: 500px;
+}
+/* paramynameisdel */
+.p_mynameisdel {
+    color: white;
+    font-size: 50px;
+    font-weight: 500;
+    text-align: center;
+    border: solid;
+    border-color: white;
+    border-radius: 100px;
+    letter-spacing: 2px;
+    line-height: 70px;
+    text-indent: 0px;
+    margin-top: 20px;
+    width: 600px;
+}
+/* linkytinhomepage */
+.linkyt {
+    color: white;
+    text-decoration: none;
+}
+/* img orangeonbottom */
+.bigorange {
+    width: 250px;
+    height: 340px;
+}
+/* borderaboutus */
+.padaboutus {
+    background-color: #ff753e;
+    text-align: center;
+    border: solid;
+    border-radius: 100px;
+    border-width: 5px 5px 5px 5px;
+    width: 700px;
+}
+/* infoabout us */
+.ulaboutus {margin: 0px 305px;}
+/* textarea aboutus */
+textarea {
+    background-color: whitesmoke;
+    color: tomato;
+    padding: 10px;
+    border-radius: 20px;
+    border:  2px solid transparent;
+    outline: none;
+}
+/* bt send aboutus */
+.buttonsend {
+    text-align: center;
+    font-family: 'Concert One', cursive ;
+    font-size: 20px;
+    background-color: tomato;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    display: inline-block;
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+/* bt send aboutus effect hover */
+.buttonsend:hover {
+    background-color: white;
+    color: tomato;
+}
+/* section orange.html */
+.info {
+    background-color: #ff753e;
+    text-align: center;
+    border: solid;
+    border-radius: 50px;
+    border-width: 5px 5px 5px 5px;
+    height: 320px;
+    width: 400px;
+}
+/* title orange */
+.title {
+    text-align: center;
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+}
+/* fname orange */
+.fname {
+    text-align: center;
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+}
+/* lname orange */
+.lname {
+    text-align: center;
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+}
+/* age orange */
+.age {
+    text-align: center;
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+}
+/* email orange */
+.email {
+    text-align: center;
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+}
+/* password orange */
+.psw {
+    text-align: center;
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+}
+.position {
+    background-color: #ff753e;
+    text-align: center;
+    border: solid;
+    border-radius: 50px;
+    border-width: 5px 5px 5px 5px;
+    height: 320px;
+    width: 400px;
+}
+.submit {
+    text-align: center;
+    font-family: 'Concert One', cursive ;
+    font-size: 15px;
+    background-color: tomato;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    display: inline-block;
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+.submit:hover {
+    background-color: white;
+    color: tomato;
+}
+.reset {
+    text-align: center;
+    font-family: 'Concert One', cursive ;
+    font-size: 15px;
+    background-color: tomato;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    display: inline-block;
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+.reset:hover {
+    background-color: white;
+    color: tomato;
+}
+.gclh2 {
+    font-family: 'IBM Plex Sans Thai', sans-serif;
+    font-size: 40px;
+
+}
+.gameboarder {
+    margin-top: 10px;
+    background-color: #ff753e;
+    text-align: center;
+    border: solid;
+    border-radius: 100px;
+    border-width: 5px 5px 5px 5px;
+    width: 700px;
+}
+/* btn randomcolor game */
+.rdcolor {
+    text-align: center;
+    font-family: 'IBM Plex Sans Thai', sans-serif;
+    font-size: 20px;
+    background-color: tomato;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    display: inline-block;
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+/* btn randomcoloreffect game */
+.rdcolor:hover {
+    background-color: white;
+    color: tomato;
+}
+/* inpcolor game */
+.inpcolor {
+    background-color: whitesmoke;
+    color: tomato;
+    padding: 10px;
+    border-radius: 20px;
+    border:  2px solid transparent;
+    outline: none;
+    font-family: 'IBM Plex Sans Thai', sans-serif;
+}
+/* inpround game */
+.inpround {
+    background-color: whitesmoke;
+    color: tomato;
+    padding: 10px;
+    border-radius: 20px;
+    border:  2px solid transparent;
+    outline: none;
+    font-family: 'IBM Plex Sans Thai', sans-serif;
+}
+/* btn start game */
+.btsend {
+    text-align: center;
+    font-family: 'IBM Plex Sans Thai', sans-serif;
+    font-size: 15px;
+    background-color: tomato;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    display: inline-block;
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+/* bt start game effect */
+.btsend:hover {
+    background-color: white;
+    color: tomato;
+}
+.bottom {
+    background-color: white;
+    color: tomato;
+    font-size: 20px;
+    padding: 10px 5px;
+    
+}
+.icon_contact {
+    list-style: none;
+    display: inline; 
+    margin: 0px 305px;   
+}
+.icon_facebook {
+    width: 20px;
+    height: 20px;
+}
+.icon_mail {
+    width: 20px;
+    height: 22px;
+}
+.nameface {
+    color: tomato;
+    font-size: 20px;
+    text-decoration: none;
+    display: inline;
+}
+.name_email {
+    font-size: 20px;
+    display: inline;
+    margin: 0px 305px;
+}
+.toyboard {
+    background-color: #ff753e;
+    text-align: center;
+    border: solid;
+    border-radius: 100px;
+    border-width: 5px 5px 5px 5px;
+    width: 700px;
+}
+.inpprice {
+    background-color: whitesmoke;
+    color: tomato;
+    padding: 10px;
+    border-radius: 20px;
+    border:  2px solid transparent;
+    outline: none;
+}
+.inpquant {
+    background-color: whitesmoke;
+    color: tomato;
+    padding: 10px;
+    border-radius: 20px;
+    border:  2px solid transparent;
+    outline: none;
+}
+.btntoy {
+    text-align: center;
+    font-family: 'Concert One', cursive ;
+    font-size: 15px;
+    background-color: tomato;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    display: inline-block;
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+.btntoy:hover {
+    background-color: white;
+    color: tomato;
+}
+.resetbtn {
+    text-align: center;
+    font-family: 'Concert One', cursive ;
+    font-size: 15px;
+    background-color: tomato;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    display: inline-block;
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+.resetbtn:hover {
+    background-color: white;
+    color: tomato;
+}
+.gradeboard {
+    background-color: #ff753e;
+    text-align: center;
+    border: solid;
+    border-radius: 100px;
+    border-width: 5px 5px 5px 5px;
+    width: 700px;
+}
+.inpscore {
+    background-color: whitesmoke;
+    color: tomato;
+    padding: 10px;
+    border-radius: 20px;
+    border:  2px solid transparent;
+    outline: none;
+}
+.btngrade {
+    text-align: center;
+    font-family: 'Concert One', cursive ;
+    font-size: 15px;
+    background-color: tomato;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    display: inline-block;
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+.btngrade:hover {
+    background-color: white;
+    color: tomato;
+}
+.btnresetscore {
+    text-align: center;
+    font-family: 'Concert One', cursive ;
+    font-size: 15px;
+    background-color: tomato;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    display: inline-block;
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+.btnresetscore:hover {
+    background-color: white;
+    color: tomato;
+}
+.btnresetgame {
+    text-align: center;
+    font-family: 'IBM Plex Sans Thai', sans-serif;
+    font-size: 15px;
+    background-color: tomato;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    display: inline-block;
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+.btnresetgame:hover {
+    background-color: white;
+    color: tomato;
+}
